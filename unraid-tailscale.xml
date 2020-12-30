@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Tailscale</Name>
-  <Repository>deasmi/unraid-tailscale:0.98</Repository>
+  <Repository>deasmi/unraid-tailscale:1.0.5.1</Repository>
   <Registry>https://hub.docker.com/repository/docker/deasmi/unraid-tailscale</Registry>
   <Network>host</Network>
   <MyIP/>
@@ -22,6 +22,8 @@ It will register as hostname unraid, if you want to change that see 'Extra Param
 &#xD;
 ** Note that this will expose your whole server into your tailscale VPN network ** &#xD;
 Do not do this if you do not understand what that means.</Overview>
+** Note that this will NOT expose your internal networks into tailscale, it is not intended to be a VPN gateway.
++However the use of the UP_FLAGS variable can allow you to do this, but I cannot provide support for that usage.
   <Category>Network:VPN</Category>
   <WebUI/>
   <TemplateURL/>
@@ -59,4 +61,5 @@ Do not do this if you do not understand what that means.</Description>
   <Environment/>
   <Labels/>
   <Config Name="Appdata path" Target="/state" Default="" Mode="rw" Description="Container Path: /state" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tailscale</Config>
+<Config Name="UP_FLAGS" Target="UP_FLAGS" Default="" Mode="" Description="Additional flags to pass to tailscale on startup" Type="Variable" Display="always" Required="false" Mask="false"/>
 </Container>
