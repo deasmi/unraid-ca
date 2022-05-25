@@ -35,6 +35,6 @@ Do not do this if you do not understand what that means.</Overview>
   <Requires/>
   <Config Name="Appdata path" Target="/state" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tailscale</Config>
   <Config Name="UP_FLAGS" Target="UP_FLAGS" Default="" Mode="" Description="Additional flags to pass to tailscale on startup" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Download path" Target="/downloads" Default="" Mode="rw" Description="Where should files download to." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/downloads/tailscale/</Config>
+  <Config Name="Download path" Target="/downloads" Default="" Mode="rw" Description="Where should files download to." Type="Path" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Enable downloads" Target="ENABLE_DOWNLOADS" Default="FALSE" Mode="" Description="Set to TRUE, and set the download path, if you want to support downloads.&#13;&#10;&#13;&#10;Note: You must manually set tag to above to deasmi/unraid-tailscale:download to support downloads until beta test is finished" Type="Variable" Display="always" Required="false" Mask="false">TRUE</Config>
 </Container>
