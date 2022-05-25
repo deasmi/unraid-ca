@@ -9,18 +9,18 @@
   <Privileged>true</Privileged>
   <Support>https://forums.unraid.net/topic/90719-will-move-to-ca-tailscale-support-thread/</Support>
   <Project>https://github.com/deasmi/unraid-tailscale</Project>
-  <Overview>Private networks made easy&#xD
-&#xD
-Connect all your devices using WireGuard,&#xAE; without the hassle.&#xD
-Tailscale makes it as easy as installing an app and signing in.&#xD
-&#xD
-This container sets up tailscale for unraid.&#xD
-&#xD
-It will register as hostname unraid, if you want to change that see 'Extra Parameters' below and change to the hostname you would like.&#xD
-&#xD
-** IMPORTANT When you first start this container you must check the log file for the logon URL and then enter it into a browser and logon to tail scale. I would then also advise setting the keys to not expire for your unraid host **&#xD
-&#xD
-** Note that this will expose your whole server into your tailscale VPN network ** &#xD
+  <Overview>Private networks made easy&#xD;
+&#xD;
+Connect all your devices using WireGuard,&#xAE; without the hassle.&#xD;
+Tailscale makes it as easy as installing an app and signing in.&#xD;
+&#xD;
+This container sets up tailscale for unraid.&#xD;
+&#xD;
+It will register as hostname unraid, if you want to change that see 'Extra Parameters' below and change to the hostname you would like.&#xD;
+&#xD;
+** IMPORTANT When you first start this container you must check the log file for the logon URL and then enter it into a browser and logon to tail scale. I would then also advise setting the keys to not expire for your unraid host **&#xD;
+&#xD;
+** Note that this will expose your whole server into your tailscale VPN network ** &#xD;
 Do not do this if you do not understand what that means.</Overview>
 ** Note that this will NOT expose your internal networks into tailscale, it is not intended to be a VPN gateway.
 +However the use of the UP_FLAGS variable can allow you to do this, but I cannot provide support for that usage.
@@ -34,18 +34,18 @@ Do not do this if you do not understand what that means.</Overview>
   <DateInstalled>1586261257</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>Private networks made easy&#xD
-&#xD
-Connect all your devices using WireGuard,&#xAE; without the hassle.&#xD
-Tailscale makes it as easy as installing an app and signing in.&#xD
-&#xD
-This container sets up tailscale for unraid.&#xD
-&#xD
-It will register as hostname unraid, if you want to change that see 'Extra Parameters' below and change to the hostname you would like.&#xD
-&#xD
-** IMPORTANT When you first start this container you must check the log file for the logon URL and then enter it into a browser and logon to tail scale. I would then also advise setting the keys to not expire for your unraid host **&#xD
-&#xD
-** Note that this will expose your whole server into your tailscale VPN network ** &#xD
+  <Description>Private networks made easy&#xD;
+&#xD;
+Connect all your devices using WireGuard,&#xAE; without the hassle.&#xD;
+Tailscale makes it as easy as installing an app and signing in.&#xD;
+&#xD;
+This container sets up tailscale for unraid.&#xD;
+&#xD;
+It will register as hostname unraid, if you want to change that see 'Extra Parameters' below and change to the hostname you would like.&#xD;
+&#xD;
+** IMPORTANT When you first start this container you must check the log file for the logon URL and then enter it into a browser and logon to tail scale. I would then also advise setting the keys to not expire for your unraid host **&#xD;
+&#xD;
+** Note that this will expose your whole server into your tailscale VPN network ** &#xD;
 Do not do this if you do not understand what that means.</Description>
   <Networking>
     <Mode>host</Mode>
